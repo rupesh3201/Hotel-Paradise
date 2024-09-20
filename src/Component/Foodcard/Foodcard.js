@@ -1,8 +1,10 @@
 import React from 'react'
 import './../../Css/Foodcard.css'
-function Foodcard() {
+function Foodcard(props) {
   return (
-    <div>Foodcard</div>
+    <div><h1>{props.title}</h1>
+    <p>{props.description}</p>
+    </div>
   )
 }
 
