@@ -1,0 +1,31 @@
+.food-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav
+{
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(3, 29, 25, 0.941);
+    /* border: 1px solid black; */
+    color: aliceblue;
+    text-align: center;
+    
+}
+#root
+{
+    margin: 0px ;
+    padding: 0px;
+    background-color: rgb(179, 152, 130);
+}
+.body
+{
+    margin: 0px ;
+    padding: 0px;
+}
