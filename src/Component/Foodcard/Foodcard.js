@@ -1,6 +1,11 @@
 import React from 'react'
 import './../../Css/Foodcard.css'
-function Foodcard({title, description}) {
+
+import nonveg from './../../Assets/nonveg.png'
+
+import veg from './../../Assets/veg.png'
+
+function Foodcard({title, description ,isveg}) {
     
   return (
     <div className='foodcard'>
