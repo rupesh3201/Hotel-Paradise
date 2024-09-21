@@ -11,6 +11,7 @@ function Foodcard({title, description ,isveg}) {
     <div className='foodcard'>
       <h1 className='foodcard-title'>{title}</h1>
     <p>{description}</p>
+    <img src={veg } className='food-card-icon' />
     </div>
   )
 }
