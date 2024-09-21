@@ -1,9 +1,9 @@
 import React from 'react'
 import './../../Css/Foodcard.css'
-function Foodcard(title,description) {
+function Foodcard({title, description}) {
     
   return (
-    <div><h1>{title}</h1>
+    <div className='foodcard'><h1>{title}</h1>
     <p>{description}</p>
     </div>
   )

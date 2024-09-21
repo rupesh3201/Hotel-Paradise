@@ -1,0 +1,22 @@
+.foodcard
+{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 300px;
+    height:     150px;
+    padding: 10px 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 0px 1px grey;
+}
+.foodcard:hover
+{
+    box-shadow: 0px 0px 5px 1px rgb(68, 136, 208);
+    transition: box-shadow ease-in;
+    transform: rotate(-2deg);
+    cursor: pointer;
+    
+}
+.foodcard-title
+{
+
+}
