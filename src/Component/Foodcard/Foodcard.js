@@ -5,7 +5,7 @@ import nonveg from './../../Assets/nonveg.png'
 import veg from './../../Assets/veg.png'
 
 
-function Foodcard({title, description ,isveg, imgurl}) {
+function Foodcard({title, description ,isveg, imgurl ,Cost}) {
     
   return (
     <div className='foodcard'>
@@ -13,6 +13,8 @@ function Foodcard({title, description ,isveg, imgurl}) {
       <h1 className='foodcard-title'>{title}</h1>
     <p className='dis'>{description}</p>
     <img src={isveg ? veg : nonveg } className='food-card-icon' alt='img' />
+
+    <p>₹{Cost} </p>
     </div>
   )
 }
