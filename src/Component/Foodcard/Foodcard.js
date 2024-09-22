@@ -13,8 +13,10 @@ function Foodcard({title, description ,isveg, imgurl ,Cost}) {
       <h1 className='foodcard-title'>{title}</h1>
     <p className='dis'>{description}</p>
     <img src={isveg ? veg : nonveg } className='food-card-icon' alt='img' />
-
+    { Cost ?
     <p className='Product-price'>₹{Cost} </p>
+    :null
+    }
     </div>
   )
 }
