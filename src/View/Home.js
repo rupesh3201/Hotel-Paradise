@@ -10,6 +10,7 @@ import crab from './../Assets/Food_images/curry-7249247_1280.jpg'
 import crabcuryy from './../Assets/Food_images/maxresdefault.jpg'
 import eggs from './../Assets/Food_images/eggs.jpg'
 import fish from './../Assets/Food_images/fish.jpg'
+// it  also called as Configurable Ui
 const Food = [
   {
     imgurl:Biryani, 
