@@ -14,7 +14,7 @@ function Foodcard({title, description ,isveg, imgurl ,Cost}) {
     <p className='dis'>{description}</p>
     <img src={isveg ? veg : nonveg } className='food-card-icon' alt='img' />
     { Cost ?
-    <p className='Product-price'>₹{Cost} </p>
+    <p className='Product-price'>₹ { Cost} </p>
     :null
     }
     </div>

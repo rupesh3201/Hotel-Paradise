@@ -17,7 +17,7 @@ function Home() {
       <br></br>
 
       <div className='food-item-container'>
-      <Foodcard imgurl={Biryani}  title="Chikan Biryani" description=" Biryani is a spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot." isveg={false}/>
+      <Foodcard imgurl={Biryani}  title="Chikan Biryani" description=" Biryani is a spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot." isveg={false} Cost={50}/>
       <Foodcard imgurl={paratha}  title="Aloo Paratha" description="Aloo Paratha are Indian Breakfast flatbreads made with whole wheat flour, boiled potatoes, spices & herbs. " isveg={true} />
       <Foodcard imgurl={curry}  title="Chicken Curry" description="Chicken curry or curry/curried chicken is a South Asian dish originating from the Indian subcontinent." isveg={false} />
       <Foodcard imgurl={pannir }  title=" Paneer Tikka" description=" Paneer Tikka it made with less oils can be a healthy and diet food. " isveg={true} />
