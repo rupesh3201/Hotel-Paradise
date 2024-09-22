@@ -12,7 +12,7 @@
 }
 .foodcard:hover
 {
-    box-shadow: 0px 0px 5px 1px  rgba(3, 29, 25, 0.941);
+    box-shadow: 0px 0px 5px 1px   rgba(3, 29, 25, 0.941);
     transition: box-shadow ease-in;
     /* transform: rotate(-2deg); */
     cursor: pointer;
@@ -62,11 +62,11 @@ margin-right: auto;
 .foodcard-button
 {
     background-color: transparent;
-    padding:10px 20px;
+    padding:10px 30px;
     border-radius: 5px;
     border: none;
-    border: 1px solid gray;
-    color:gray;
+    border: 1px solid  rgba(85, 85, 90, 0.921);
+    color :rgba(85, 85, 90, 0.921);
     margin: 10px 20px;
    display: block;
    margin-left: auto;
@@ -74,8 +74,8 @@ margin-right: auto;
 }
 .foodcard-button:hover
 {
-    background-color: gray;
-    color: whitesmoke;
+    background-color: rgba(85, 85, 90, 0.921);
+    color: black;
     cursor: pointer;
 }
 

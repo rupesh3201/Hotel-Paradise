@@ -12,7 +12,7 @@
     padding: 0px;
     height: 50px;
     width: 100%;
-    background-color: rgba(3, 29, 25, 0.941);
+    background-color:rgba(85, 85, 90, 0.921) ;
     /* border: 1px solid black; */
     color: aliceblue;
     text-align: center;
@@ -22,7 +22,8 @@
 {
     margin: 0px ;
     padding: 0px;
-    background-color: rgb(179, 152, 130);
+    background-color: rgb(200, 196, 196);
+    /* rgb(179, 152, 130) */
 }
 .body
 {
