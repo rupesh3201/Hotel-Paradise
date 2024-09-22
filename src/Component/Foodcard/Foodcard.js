@@ -17,6 +17,7 @@ function Foodcard({title, description ,isveg, imgurl ,Cost}) {
     <p className='Product-price'>₹ { Cost} </p>
     :null
     }
+    <button className='foodcard-button'> Add To Cart</button>
     </div>
   )
 }
