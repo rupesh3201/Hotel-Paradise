@@ -2,11 +2,13 @@ import React from 'react'
 import './../Css/Home.css'
 import Foodcard from '../Component/Foodcard/Foodcard'
 import { MAIN_TITLE } from '../Config/Data';
+import { SUBTITLE } from '../Config/Data';
 import { Products } from '../Config/Data';
 function Home() {
   return (
     <div>
-      <h1 className='nav'>{MAIN_TITLE} </h1>
+      <h1 className='nav'>{MAIN_TITLE}   <h4 className='Subtitle'> {SUBTITLE}</h4>  </h1>
+     
       <br></br>
 
       <div className='food-item-container'>
