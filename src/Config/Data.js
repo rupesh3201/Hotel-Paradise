@@ -10,6 +10,7 @@ import eggs from './../Assets/Food_images/eggs.jpg'
 import fish from './../Assets/Food_images/fish.jpg'
 // it  also called as Configurable Ui
 
+const MAIN_TITLE = "Hotel Paradise"
 const Products = [
     {
       imgurl:Biryani, 
@@ -69,5 +70,5 @@ const Products = [
      }
   
   ]
-  export {Products }
+  export {Products ,MAIN_TITLE}
   
